@@ -16,7 +16,7 @@ nav {
   align-content: center;
   justify-content: space-between;
 
-  padding: 0.5em 0 0 1em;
+  /* padding: 0.5em 0 0 1em; */
 }
 header ul {
   list-style: none;
@@ -28,6 +28,10 @@ header ul {
 nav li {
   font-weight: 600;
 }
+/* .sticky {
+  position: fixed;
+  top: 0;
+} */
 
 h1 {
   color: rgb(15, 6, 6);
@@ -46,6 +50,7 @@ h1 strong {
   justify-content: start;
 }
 
+/* parralax effect  */
 .container {
   background-image: url("/dist/img/l3.jpg");
   opacity: 0.8;
